@@ -1,19 +1,44 @@
-//Task 2
-const personname = "Eric";
-console.log("Hello Eric, would you like to learn some Python today?");
-//task 3
-const personname1 ="AbdulRehman";
-const lowercasesrting =personname1.toLowerCase();
-const uppercasestring = personname1.toUpperCase();
-console.log (lowercasesrting);
-console.log(uppercasestring);
-//Task 4
-const authoename = "The Stephen King once said,";
-const quote = "I try to create sympathy for my characters, then turn the monsters loose. ";
-console.log (`${authoename}  "${quote}"`);
-//task 5
-const famous_person = "Ernest Hemingway once said ,";
-const message = "Prose is architecture, not interior decoration.";
-console.log(`${famous_person}" ${message}"`);
+//Questioon no 6
 
+let personname: string = "\t Abdul Rehman \nArif\n \t ";
+console.log ("name with whitespace ");
+console.log(personname);
+let trimpersonname: string = personname.trim();
+console.log ("personname with trim ");
+console.log (trimpersonname);
+console.log("*------------*");
+//question no 7
+console.log (4+4);
+console.log(16-8);
+console.log(4*2);
+console.log(64/8);
+console.log("*------------*");
+//Question no 8
+console.log("-------------------");
+console.log (4+4);
+console.log("-------------------");
+console.log(16-8);
+console.log("-------------------");
+console.log(4*2);
+console.log("-------------------");
+console.log(64/8);
+console.log("-------------------");
+console.log("*------------*");
+//Question no 9
+let num: number = 381;
+let message : string = ("Idreesia.com");
+console.log(message);
+console.log(num);
+console.log("*------------*");
+//Question no 10
+let comment :string = ("This program show my name with trim and without trim");
+console.log(comment);
+let personname1: string = "\t Abdul Rehman Arif \t ";
+console.log ("Name with whitespace ");
+console.log(personname1);
+console.log("*------------*");
+let trimpersonname1: string = personname.trim();
+console.log ("Personname with trim Whitespaces  ");
+console.log (trimpersonname1);
+console.log("*------------*");
 
